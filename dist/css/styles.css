@@ -11532,3 +11532,7 @@ html {
   border-bottom-right-radius: 5px;
 }
 
+iframe {
+  display:block;
+  width: 100%;
+}
