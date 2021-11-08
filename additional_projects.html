@@ -19,7 +19,7 @@
         type="text/css" />
 
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
+    <link href="./dist/css/styles.css" rel="stylesheet" />
 
 </head>
 
@@ -38,18 +38,22 @@
         </div>
         <div class="row">
             <div class="col text-center">
-                <strong>Drum Kit</strong>
-                <p><img src="./assets/img/portfolio/reviews.png" class=" img-fluid img-thumbnail" alt="..."></p>
+                <strong>Reviews</strong>
+                <p><img src="./dist/assets/img/portfolio/reviews.png" class=" img-fluid img-thumbnail" alt="..."></p>
 
                 <p><a href="https://ahenrikson0582.github.io/JavaScript-Projects/reviews/" onclick="window.open(this.href, 'mywin', 
                                         'toolbar=0,menubar=0,scrollbars=1,height=600,width=720'); return false;"
                         class="btn btn-secondary">Click Me</a></p>
             </div>
-
-            <button class="btn btn-secondary" href="https://ahenrikson0582.github.io/portfolio/dist/index.html#portfolio">
+            </div>
+            <div>
+                <input type="button" value="Go back!" onclick="history.back()">
+            <button class="btn btn-secondary" href="https://ahenrikson0582.github.io/portfolio/" data-bs-dismiss="modal">
                 <i class="fas fa-times fa-fw"></i>
                 Close Window
             </button>
+            </div>
+            
             <!-- <div class="col">
                 <strong>Clock</strong>
                 <p><img src="assets/img/portfolio/clock.png" class="img-fluid img-thumbnail" alt="..."></p>
